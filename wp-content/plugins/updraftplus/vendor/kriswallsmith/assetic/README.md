@@ -291,8 +291,7 @@ to what the asset factory uses:
 
 ``` html+jinja
 
-    <link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
-{% endstylesheets %}
+    
 ```
 
 This example will render one `link` element on the page that includes a URL
