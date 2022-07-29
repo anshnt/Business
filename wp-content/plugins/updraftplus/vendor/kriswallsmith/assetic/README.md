@@ -305,7 +305,7 @@ using the `?` prefix.
 This behavior can also be triggered by setting a `debug` attribute on the tag:
 
 ``` html+jinja
-{% stylesheets 'css/*' debug=true %} ... {% endstylesheets %}
+
 ```
 
 These assets need to be written to the web directory so these URLs don't
