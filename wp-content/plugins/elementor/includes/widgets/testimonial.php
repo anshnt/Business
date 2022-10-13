@@ -133,7 +133,7 @@ class Widget_Testimonial extends Widget_Base {
 				'dynamic' => [
 					'active' => true,
 				],
-				'default' => 'John Doe',
+				'default' => 'Virti Shah',
 			]
 		);
 

@@ -191,7 +191,7 @@ class Sina_Review_Carousel_Widget extends Widget_Base{
 						'image' => [
 							'url' => SINA_EXT_URL .'assets/img/review1.jpg',
 						],
-						'name' => 'Jhin Stalker',
+						'name' => 'Heet Jain',
 						'position' => 'CEO',
 						'company' => 'Google',
 						'comment' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At tempora cumque delectus nam obcaecati consectetur ad dolorum neque dolores nemo!',
@@ -200,7 +200,7 @@ class Sina_Review_Carousel_Widget extends Widget_Base{
 						'image' => [
 							'url' => SINA_EXT_URL .'assets/img/review2.jpg',
 						],
-						'name' => 'Jhon Doe',
+						'name' => 'Ansh Jain',
 						'position' => 'Web Developer',
 						'company' => 'Facebook',
 						'comment' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At tempora cumque delectus nam obcaecati consectetur ad dolorum neque dolores nemo!',
@@ -209,7 +209,7 @@ class Sina_Review_Carousel_Widget extends Widget_Base{
 						'image' => [
 							'url' => SINA_EXT_URL .'assets/img/review3.jpg',
 						],
-						'name' => 'Jhan Stalker',
+						'name' => 'Virti Jain',
 						'position' => 'Graphic Designer',
 						'company' => 'Behance',
 						'comment' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At tempora cumque delectus nam obcaecati consectetur ad dolorum neque dolores nemo!',
