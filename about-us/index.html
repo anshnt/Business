@@ -1369,7 +1369,9 @@
       }
       .ext
         .wp-block-columns
-        + .wp-block-columns:not([class*="mt-"]):not([class*="my-"]):not([style*="margin"]) {
+        + .wp-block-columns:not([class*="mt-"]):not([class*="my-"]):not(
+          [style*="margin"]
+        ) {
         margin-top: 0 !important;
       }
       [class*="fullwidth-cols"] .wp-block-column:first-child,
@@ -1393,7 +1395,9 @@
         margin-bottom: var(--wp--style--block-gap, 1.75rem);
       }
       @media (min-width: 782px) {
-        .wp-block-columns[class*="fullwidth-cols"]:not(.is-not-stacked-on-mobile)
+        .wp-block-columns[class*="fullwidth-cols"]:not(
+            .is-not-stacked-on-mobile
+          )
           > .wp-block-column:not(:last-child) {
           margin-bottom: 0;
         }
@@ -1403,13 +1407,17 @@
         margin-bottom: 0 !important;
       }
       @media (min-width: 600px) and (max-width: 781px) {
-        .wp-block-columns[class*="fullwidth-cols"]:not(.is-not-stacked-on-mobile)
+        .wp-block-columns[class*="fullwidth-cols"]:not(
+            .is-not-stacked-on-mobile
+          )
           > .wp-block-column:nth-child(2n) {
           margin-left: var(--wp--style--block-gap, 2em);
         }
       }
       @media (max-width: 781px) {
-        .tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile) {
+        .tablet\:fullwidth-cols.wp-block-columns:not(
+            .is-not-stacked-on-mobile
+          ) {
           flex-wrap: wrap;
         }
         .tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)
@@ -1424,7 +1432,9 @@
         }
       }
       @media (max-width: 1079px) {
-        .desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile) {
+        .desktop\:fullwidth-cols.wp-block-columns:not(
+            .is-not-stacked-on-mobile
+          ) {
           flex-wrap: wrap;
         }
         .desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)
@@ -3898,11 +3908,15 @@
                             border: 3px solid;
                             background-color: transparent;
                           }
-                          .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
+                          .elementor-widget-text-editor:not(
+                              .elementor-drop-cap-view-default
+                            )
                             .elementor-drop-cap {
                             margin-top: 8px;
                           }
-                          .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
+                          .elementor-widget-text-editor:not(
+                              .elementor-drop-cap-view-default
+                            )
                             .elementor-drop-cap-letter {
                             width: 1em;
                             height: 1em;
@@ -4755,9 +4769,7 @@
                                       />
                                     </div>
                                     <div class="item--meta">
-                                      <h3 class="item--title">
-                                        Maria Silverii
-                                      </h3>
+                                      <h3 class="item--title">Dhrati Shah</h3>
                                       <div class="item--position">
                                         CEO of Blue Illusion
                                       </div>
@@ -4792,9 +4804,7 @@
                                       />
                                     </div>
                                     <div class="item--meta">
-                                      <h3 class="item--title">
-                                        Phillip Macintyre
-                                      </h3>
+                                      <h3 class="item--title">Tarak Patel</h3>
                                       <div class="item--position">
                                         CEO of Blue Illusion
                                       </div>
@@ -4830,7 +4840,7 @@
                                       />
                                     </div>
                                     <div class="item--meta">
-                                      <h3 class="item--title">Amy Harrison</h3>
+                                      <h3 class="item--title">Ansh Jain!!</h3>
                                       <div class="item--position">
                                         Contiki Holidays
                                       </div>
@@ -4865,9 +4875,7 @@
                                       />
                                     </div>
                                     <div class="item--meta">
-                                      <h3 class="item--title">
-                                        Maria Silverii
-                                      </h3>
+                                      <h3 class="item--title">Dhrati Shah</h3>
                                       <div class="item--position">
                                         CEO of Blue Illusion
                                       </div>
@@ -4902,7 +4910,7 @@
                                       />
                                     </div>
                                     <div class="item--meta">
-                                      <h3 class="item--title">Amy Harrison</h3>
+                                      <h3 class="item--title">Ansh Jain!!</h3>
                                       <div class="item--position">
                                         Contiki Holidays
                                       </div>
@@ -4938,9 +4946,7 @@
                                       />
                                     </div>
                                     <div class="item--meta">
-                                      <h3 class="item--title">
-                                        Phillip Macintyre
-                                      </h3>
+                                      <h3 class="item--title">Tarak Patel</h3>
                                       <div class="item--position">
                                         CEO of Blue Illusion
                                       </div>
@@ -5342,7 +5348,7 @@
                                 </div>
                                 <div class="item--meta-wrap">
                                   <div class="item--meta">
-                                    <h3 class="item--title">Donald Johnson</h3>
+                                    <h3 class="item--title">Vipul Jain</h3>
                                     <span class="item--position"
                                       >Executive Manager</span
                                     >
@@ -5382,9 +5388,9 @@
                                 </div>
                                 <div class="item--meta-wrap">
                                   <div class="item--meta">
-                                    <h3 class="item--title">Jewel D Smith</h3>
+                                    <h3 class="item--title">Ansh Jain</h3>
                                     <span class="item--position"
-                                      >Executive Director</span
+                                      >Chief Technology Officer</span
                                     >
                                     <div class="item--button">
                                       <a
@@ -5422,7 +5428,7 @@
                                 </div>
                                 <div class="item--meta-wrap">
                                   <div class="item--meta">
-                                    <h3 class="item--title">Alan Smith</h3>
+                                    <h3 class="item--title">Heet Jain</h3>
                                     <span class="item--position"
                                       >Managing Director</span
                                     >
@@ -5462,7 +5468,7 @@
                                 </div>
                                 <div class="item--meta-wrap">
                                   <div class="item--meta">
-                                    <h3 class="item--title">Brad Smith</h3>
+                                    <h3 class="item--title">Virti Jain</h3>
                                     <span class="item--position"
                                       >Executive Manager</span
                                     >
@@ -5957,7 +5963,11 @@
                                   line-height: 1;
                                   font-size: 0;
                                 }
-                                .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0)
+                                .elementor-widget-social-icons:not(
+                                    .elementor-grid-0
+                                  ):not(.elementor-grid-tablet-0):not(
+                                    .elementor-grid-mobile-0
+                                  )
                                   .elementor-grid {
                                   display: inline-grid;
                                 }
