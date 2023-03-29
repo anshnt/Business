@@ -1369,7 +1369,9 @@
       }
       .ext
         .wp-block-columns
-        + .wp-block-columns:not([class*="mt-"]):not([class*="my-"]):not([style*="margin"]) {
+        + .wp-block-columns:not([class*="mt-"]):not([class*="my-"]):not(
+          [style*="margin"]
+        ) {
         margin-top: 0 !important;
       }
       [class*="fullwidth-cols"] .wp-block-column:first-child,
@@ -1393,7 +1395,9 @@
         margin-bottom: var(--wp--style--block-gap, 1.75rem);
       }
       @media (min-width: 782px) {
-        .wp-block-columns[class*="fullwidth-cols"]:not(.is-not-stacked-on-mobile)
+        .wp-block-columns[class*="fullwidth-cols"]:not(
+            .is-not-stacked-on-mobile
+          )
           > .wp-block-column:not(:last-child) {
           margin-bottom: 0;
         }
@@ -1403,13 +1407,17 @@
         margin-bottom: 0 !important;
       }
       @media (min-width: 600px) and (max-width: 781px) {
-        .wp-block-columns[class*="fullwidth-cols"]:not(.is-not-stacked-on-mobile)
+        .wp-block-columns[class*="fullwidth-cols"]:not(
+            .is-not-stacked-on-mobile
+          )
           > .wp-block-column:nth-child(2n) {
           margin-left: var(--wp--style--block-gap, 2em);
         }
       }
       @media (max-width: 781px) {
-        .tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile) {
+        .tablet\:fullwidth-cols.wp-block-columns:not(
+            .is-not-stacked-on-mobile
+          ) {
           flex-wrap: wrap;
         }
         .tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)
@@ -1424,7 +1432,9 @@
         }
       }
       @media (max-width: 1079px) {
-        .desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile) {
+        .desktop\:fullwidth-cols.wp-block-columns:not(
+            .is-not-stacked-on-mobile
+          ) {
           flex-wrap: wrap;
         }
         .desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)
@@ -3904,7 +3914,11 @@
                                     .elementor-divider__element {
                                     margin-right: 0;
                                   }
-                                  .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon)
+                                  .elementor-widget-divider:not(
+                                      .elementor-widget-divider--view-line_text
+                                    ):not(
+                                      .elementor-widget-divider--view-line_icon
+                                    )
                                     .elementor-divider-separator {
                                     border-top: var(--divider-border-width)
                                       var(--divider-border-style)
@@ -3915,11 +3929,17 @@
                                   }
                                   .elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line
                                     .elementor-divider-separator,
-                                  .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line)
+                                  .elementor-widget-divider--separator-type-pattern:not(
+                                      .elementor-widget-divider--view-line
+                                    )
                                     .elementor-divider-separator:after,
-                                  .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line)
+                                  .elementor-widget-divider--separator-type-pattern:not(
+                                      .elementor-widget-divider--view-line
+                                    )
                                     .elementor-divider-separator:before,
-                                  .elementor-widget-divider--separator-type-pattern:not([class*="elementor-widget-divider--view"])
+                                  .elementor-widget-divider--separator-type-pattern:not(
+                                      [class*="elementor-widget-divider--view"]
+                                    )
                                     .elementor-divider-separator {
                                     width: 100%;
                                     min-height: var(--divider-pattern-height);
@@ -4438,11 +4458,15 @@
                             border: 3px solid;
                             background-color: transparent;
                           }
-                          .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
+                          .elementor-widget-text-editor:not(
+                              .elementor-drop-cap-view-default
+                            )
                             .elementor-drop-cap {
                             margin-top: 8px;
                           }
-                          .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
+                          .elementor-widget-text-editor:not(
+                              .elementor-drop-cap-view-default
+                            )
                             .elementor-drop-cap-letter {
                             width: 1em;
                             height: 1em;
@@ -4786,7 +4810,11 @@
                                   line-height: 1;
                                   font-size: 0;
                                 }
-                                .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0)
+                                .elementor-widget-social-icons:not(
+                                    .elementor-grid-0
+                                  ):not(.elementor-grid-tablet-0):not(
+                                    .elementor-grid-mobile-0
+                                  )
                                   .elementor-grid {
                                   display: inline-grid;
                                 }
@@ -5319,28 +5347,10 @@
                                   </h3>
                                   <p class="elementor-icon-box-description">
                                     <a
-                                      href="cdn-cgi/l/email-protection"
+                                      href="mailto:info@bluzen.co.in"
                                       class="__cf_email__"
-                                      data-cfemail="6b02050d042b09071e110e05450804450205"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="244540494d4a644648515e414a0a474b0a4d4a"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="0e7d7b7e7e617c7a4e6c627b746b60206d61206760"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="bfddd3cac5dad1dcd3d0cbd7d6d1d8ffd8d2ded6d391dcd0d2"
-                                      >[email&#160;protected]</a
+                                      data-cfemail="1c75727a735c7e7069667972327f73327572"
+                                      >info@bluzen.co.in</a
                                     >
                                   </p>
                                 </div>
@@ -5444,7 +5454,11 @@
                                   line-height: 1;
                                   font-size: 0;
                                 }
-                                .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0)
+                                .elementor-widget-social-icons:not(
+                                    .elementor-grid-0
+                                  ):not(.elementor-grid-tablet-0):not(
+                                    .elementor-grid-mobile-0
+                                  )
                                   .elementor-grid {
                                   display: inline-grid;
                                 }
@@ -5975,28 +5989,10 @@
                                   </h3>
                                   <p class="elementor-icon-box-description">
                                     <a
-                                      href="cdn-cgi/l/email-protection"
+                                      href="mailto:info@bluzen.co.in"
                                       class="__cf_email__"
-                                      data-cfemail="6900070f06290b051c130c07470a06470007"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="68090c050106280a041d120d06460b07460106"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="32414742425d404672505e4748575c1c515d1c5b5c"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="553739202f303b36393a213d3c3b32153238343c397b363a38"
-                                      >[email&#160;protected]</a
+                                      data-cfemail="1c75727a735c7e7069667972327f73327572"
+                                      >info@bluzen.co.in</a
                                     >
                                   </p>
                                 </div>

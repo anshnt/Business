@@ -1367,7 +1367,9 @@
       }
       .ext
         .wp-block-columns
-        + .wp-block-columns:not([class*="mt-"]):not([class*="my-"]):not([style*="margin"]) {
+        + .wp-block-columns:not([class*="mt-"]):not([class*="my-"]):not(
+          [style*="margin"]
+        ) {
         margin-top: 0 !important;
       }
       [class*="fullwidth-cols"] .wp-block-column:first-child,
@@ -1391,7 +1393,9 @@
         margin-bottom: var(--wp--style--block-gap, 1.75rem);
       }
       @media (min-width: 782px) {
-        .wp-block-columns[class*="fullwidth-cols"]:not(.is-not-stacked-on-mobile)
+        .wp-block-columns[class*="fullwidth-cols"]:not(
+            .is-not-stacked-on-mobile
+          )
           > .wp-block-column:not(:last-child) {
           margin-bottom: 0;
         }
@@ -1401,13 +1405,17 @@
         margin-bottom: 0 !important;
       }
       @media (min-width: 600px) and (max-width: 781px) {
-        .wp-block-columns[class*="fullwidth-cols"]:not(.is-not-stacked-on-mobile)
+        .wp-block-columns[class*="fullwidth-cols"]:not(
+            .is-not-stacked-on-mobile
+          )
           > .wp-block-column:nth-child(2n) {
           margin-left: var(--wp--style--block-gap, 2em);
         }
       }
       @media (max-width: 781px) {
-        .tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile) {
+        .tablet\:fullwidth-cols.wp-block-columns:not(
+            .is-not-stacked-on-mobile
+          ) {
           flex-wrap: wrap;
         }
         .tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)
@@ -1422,7 +1430,9 @@
         }
       }
       @media (max-width: 1079px) {
-        .desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile) {
+        .desktop\:fullwidth-cols.wp-block-columns:not(
+            .is-not-stacked-on-mobile
+          ) {
           flex-wrap: wrap;
         }
         .desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)
@@ -3861,11 +3871,15 @@
                             border: 3px solid;
                             background-color: transparent;
                           }
-                          .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
+                          .elementor-widget-text-editor:not(
+                              .elementor-drop-cap-view-default
+                            )
                             .elementor-drop-cap {
                             margin-top: 8px;
                           }
-                          .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
+                          .elementor-widget-text-editor:not(
+                              .elementor-drop-cap-view-default
+                            )
                             .elementor-drop-cap-letter {
                             width: 1em;
                             height: 1em;
@@ -5099,7 +5113,11 @@
                                   line-height: 1;
                                   font-size: 0;
                                 }
-                                .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0)
+                                .elementor-widget-social-icons:not(
+                                    .elementor-grid-0
+                                  ):not(.elementor-grid-tablet-0):not(
+                                    .elementor-grid-mobile-0
+                                  )
                                   .elementor-grid {
                                   display: inline-grid;
                                 }
@@ -5757,7 +5775,11 @@
                                   line-height: 1;
                                   font-size: 0;
                                 }
-                                .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0)
+                                .elementor-widget-social-icons:not(
+                                    .elementor-grid-0
+                                  ):not(.elementor-grid-tablet-0):not(
+                                    .elementor-grid-mobile-0
+                                  )
                                   .elementor-grid {
                                   display: inline-grid;
                                 }
@@ -6288,28 +6310,10 @@
                                   </h3>
                                   <p class="elementor-icon-box-description">
                                     <a
-                                      href="cdn-cgi/l/email-protection"
+                                      href="mailto:info@bluzen.co.in"
                                       class="__cf_email__"
-                                      data-cfemail="6900070f06290b051c130c07470a06470007"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="68090c050106280a041d120d06460b07460106"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="32414742425d404672505e4748575c1c515d1c5b5c"
-                                      >[email&#160;protected]</a
-                                    >,
-                                    <a
-                                      href="cdn-cgi/l/email-protection"
-                                      class="__cf_email__"
-                                      data-cfemail="553739202f303b36393a213d3c3b32153238343c397b363a38"
-                                      >[email&#160;protected]</a
+                                      data-cfemail="1c75727a735c7e7069667972327f73327572"
+                                      >info@bluzen.co.in</a
                                     >
                                   </p>
                                 </div>
